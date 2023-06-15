@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>NFS WFIS</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<script src='./jsm/controls/threex.keyboardstate.js'></script>
+		<script src="../build/Detector.js"></script>
+		<script src="../build/THREEx.FullScreen.js"></script>
+		<script src="../build/THREEx.WindowResize.js"></script>
+		<script src="../build/three.js"></script>
+		<script src="../build/Stats.js"></script>
+		
+		
+		<link rel="stylesheet" href="css/style.css">
+		<style>
+			 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+		</style>
+		
+		
+		<script> 
+		
+		// 
+		
+		</script>
+	</head>
+	<body>
+		
+		<span class="overlay-box" id='time'></span>
+		
+		<div id="legenda">
+		<span >Tips: <br>
+		Press "O" - on/off collisions <br>
+		Press "R" - Reset <br>
+		Press "Z" - last chekpoint<br>
+		Press "["- mute/unmute crash sound <br>
+		Press "]"- mute/unmute checkpoint sound <br>
+		Press "LeftShift"- to gear up<br>
+		Press "LeftControl" - to gear down <br>
+
+		
+		
+		</span>
+		</div>
+		
+		<div class="container">
+        <div class="title"> Need for Speed WFIS</div>
+        <div class="button">
+            <div id="but"> PLAY </div>
+			
+        </div>
+		<div id="credits">
+		Credits<br>
+		</div>
+		<div id="names">
+			Cieślak Arkadiusz<br>
+			Cieślewicz Maciej<br>
+		</div>
+		<div id="Controls">
+			Controls
+		</div>
+		<div id="controls">
+			W,A,S,D - To move your car<br>
+			Left Shift - gear up <br>
+			Left Control - gear down <br>
+			Remember you have 6 gears <br>
+			If you let go W/S it automatically downgrade to gear 0<br>
+		</div>
+    </div>
+	
+	<div id="ThreeJS" style="z-index: 2;"></div>
+	
+	
+	
+	
+	
+	<script type="module" src="main.js"></script>
+		
+		
+	</body>
+</html>
